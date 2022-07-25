@@ -1,0 +1,20 @@
+{
+  "name": "cheerup",
+  "version": "1.0.0",
+  "description": "[IDP] Test/training project - simple application for displaying cheering up pictures, but with management (jira) and CI/CD (github actions) applied.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ui; npm run start",
+    "test": "echo testing-testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTod/CheerUp.git"
+  },
+  "author": "OTod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OTod/CheerUp/issues"
+  },
+  "homepage": "https://github.com/OTod/CheerUp#readme"
+}
