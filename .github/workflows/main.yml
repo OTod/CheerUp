@@ -38,7 +38,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      # Performint linting
+      - name: Running linting sequence
+        run: npm run lint
+    
+
       # Running all the tests
-      - name: Run a multi-line script
+      - name: Running testing sequence
         run: npm run test
     

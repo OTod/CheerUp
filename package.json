@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "cd ui; npm run start",
-    "test": "echo testing.... Testing succeeded"
+    "test": "echo testing.... Testing succeeded",
+    "lint:ui": "echo ....linting ui.... ; npx eslint ./ui",
+    "lint": "npm run lint:ui;"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/OTod/CheerUp/issues"
   },
-  "homepage": "https://github.com/OTod/CheerUp#readme"
+  "homepage": "https://github.com/OTod/CheerUp#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-plugin-react": "^7.30.1"
+  }
 }
